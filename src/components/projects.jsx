@@ -7,6 +7,16 @@ class Projects extends Component {
     this.state = { activeTab: 0 };
   }
 
+  toggleCategories() {
+    if (this.state.activeTab === 0) {
+      return <div>This is Ruby on Rails</div>;
+    } else if (this.state.activeTab === 1) {
+      return <div>This is React</div>;
+    } else if (this.state.activeTab === 2) {
+      return <div>This is HTML/CSS</div>;
+    }
+  }
+
   render() {
     return (
       <div className="category-tabs">
@@ -19,6 +29,7 @@ class Projects extends Component {
           <Tab>React</Tab>
           <Tab>JavaScript</Tab>
         </Tabs>
+        <section className="projects-grid">{this.toggleCategories()}</section>
       </div>
     );
   }
