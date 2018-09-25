@@ -14,10 +14,6 @@ class Landing extends Component {
             />
             <div className="banner">
               <h1>Full Stack Web Developer</h1>
-              <span class="text text-white" id="str">
-                WEB DEVELOPER
-              </span>
-              <span class="type-cursor">|</span>
             </div>
           </Cell>
         </Grid>
