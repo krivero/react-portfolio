@@ -69,9 +69,7 @@
   color: white;
 }
 
- {
-  /* Projects */
-}
+/* Projects */
 
 .projects-grid {
   display: flex;
@@ -82,4 +80,5 @@
 .resume-right-col {
   background: #27221f;
   color: white;
+  padding: 2rem;
 }
