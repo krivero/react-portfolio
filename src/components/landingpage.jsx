@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+import { logo } from "./logo.png";
 
 class Landing extends Component {
   render() {
@@ -12,6 +13,7 @@ class Landing extends Component {
               alt="avatar"
               className="avatar"
             />
+            <img src={logo} alt="logo" />
             <div className="banner">
               <h1>Full Stack Web Developer</h1>
               <hr />
