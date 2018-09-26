@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+import Experience from "./experience";
+import Education from "./education";
+import Skills from "./skills";
 
 class Resume extends Component {
   render() {
@@ -34,7 +37,45 @@ class Resume extends Component {
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
-            Right Side
+            <h2>Education</h2>
+            <Education
+              endDate={2018}
+              schoolName={"Wyncode Academy"}
+              schoolDescription={"diuygvfvh"}
+            />
+            <Education
+              endDate={2014}
+              schoolName={"Florida State University"}
+              degree={"B.S. Exercise Science"}
+              schoolDescription={"diuygvfvh"}
+            />
+            <Education
+              endDate={2014}
+              schoolName={"Florida State University"}
+              degree={"B.S. Geography, Environmental Studies"}
+              schoolDescription={"diuygvfvh"}
+            />
+            <h2>Experience</h2>
+            <Experience
+              startDate={"December 2016"}
+              endDate={"June 2018"}
+              companyName={"University of Miami"}
+              companyCity={"Miami, FL"}
+              jobTitle={"Administrative Assistant/Fellowship Coordinator"}
+              jobDescription={""}
+            />
+            <h2>Tech Skills</h2>
+            <Skills skill={"HTML/CSS"} progress={80} />
+            <Skills skill={"JavaScript"} progress={70} />
+            <Skills skill={"Bootstrap"} progress={80} />
+            <Skills skill={"React"} progress={70} />
+            <Skills skill={"NodeJS"} progress={70} />
+            <Skills skill={"Ruby on Rails"} progress={75} />
+
+            <h2>Other Relevant Skills</h2>
+            <Skills skill={"Willingness to Learn"} progress={100} />
+            <Skills skill={"Customer Service"} progress={100} />
+            <Skills skill={"Plan and Prioritize Work"} progress={100} />
           </Cell>
         </Grid>
       </div>
