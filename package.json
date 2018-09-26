@@ -17,6 +17,8 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "babel-plugin-dynamic-import-webpack": "^1.0.2"
+    "babel-plugin-dynamic-import-webpack": "^1.0.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1"
   }
 }
