@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import logo from "./logo.png";
+import headshot from "./headshot.jpg";
 
 class Landing extends Component {
   render() {
@@ -10,11 +11,9 @@ class Landing extends Component {
           <Cell col={12}>
             <img className="logo" src={logo} alt="logo" />
             <div className="banner">
-              <img
-                src="https://www.shareicon.net/download/2016/05/26/771190_people_512x512.png"
-                alt="avatar"
-                className="avatar"
-              />
+              <div className="headshot-img">
+                <img src={headshot} alt="avatar" className="headshot" />
+              </div>
               <h1>Full Stack Web Developer</h1>
               <hr />
               <p>

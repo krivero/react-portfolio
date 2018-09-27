@@ -1,24 +1,20 @@
-h1 {
-  font-family: "Comfortaa", cursive;
-}
-
-.header-color {
-  background: black;
-}
-
 .landing-page {
   background: #fffafa;
   text-align: center;
 }
 
 .logo {
-  height: 250px;
+  height: 150px;
   margin-bottom: 1rem;
 }
 
-.avatar {
+.headshot-img {
+  padding-top: 2rem;
+}
+
+.headshot {
   height: 15rem;
-  padding-top: 4rem;
+  border-radius: 50%;
 }
 
 .banner {
@@ -33,7 +29,7 @@ h1 {
   font-size: 2rem;
   font-weight: bold;
   color: #808080;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .banner hr {
