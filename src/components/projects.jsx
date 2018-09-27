@@ -23,7 +23,7 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div className="projects-grid">
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "550", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "white",
@@ -35,8 +35,15 @@ class Projects extends Component {
               United Way Project
             </CardTitle>
             <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              sagittis pellentesque lacus eleifend lacinia...
+              Worked with the United Way of Miami-Dade to create an app that
+              allows a user to:
+              <ul>
+                <li>only need to register for site one time</li>
+                <li>sign-up for multiple events</li>
+                <li>creation/deletion of events (admin only)</li>
+              </ul>
+              Made with technologies such as Ruby on Rails, React, AWS,
+              JavaScript and Bootstrap.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
@@ -47,7 +54,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "550", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "white",
@@ -56,11 +63,16 @@ class Projects extends Component {
                   "url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center/cover"
               }}
             >
-              Project #2
+              The Gif Club
             </CardTitle>
             <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              sagittis pellentesque lacus eleifend lacinia...
+              Created an app that mirrors giphy.com that allows the user to:
+              <ul>
+                <li>Interactively serach for gif</li>
+                <li>Randomly generate gif</li>
+                <li>Click on gif to allow for shareability</li>
+              </ul>
+              Made with technologies such as React and JavaScript.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
@@ -71,7 +83,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "550", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "white",
@@ -80,11 +92,17 @@ class Projects extends Component {
                   "url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center/cover"
               }}
             >
-              Project #3
+              Miami Bakery
             </CardTitle>
             <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              sagittis pellentesque lacus eleifend lacinia...
+              Created an app that allows users to get information about a local
+              business.
+              <ul>
+                <li>Interactively serach for gif</li>
+                <li>Randomly generate gif</li>
+                <li>Click on gif to allow for shareability</li>
+              </ul>
+              Made with technologies such as HTML, CSS and Bootstrap.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
@@ -108,7 +126,7 @@ class Projects extends Component {
                   "url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center/cover"
               }}
             >
-              Project #1
+              Snippet #1
             </CardTitle>
             <CardText>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -132,7 +150,7 @@ class Projects extends Component {
                   "url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center/cover"
               }}
             >
-              Project #2
+              Snippet #2
             </CardTitle>
             <CardText>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -156,83 +174,7 @@ class Projects extends Component {
                   "url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center/cover"
               }}
             >
-              Project #3
-            </CardTitle>
-            <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              sagittis pellentesque lacus eleifend lacinia...
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "white" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-        </div>
-      );
-    } else if (this.state.activeTab === 2) {
-      return (
-        <div className="projects-grid">
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "white",
-                height: "176px",
-                background:
-                  "url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center/cover"
-              }}
-            >
-              Project #1
-            </CardTitle>
-            <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              sagittis pellentesque lacus eleifend lacinia...
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "white" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "white",
-                height: "176px",
-                background:
-                  "url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center/cover"
-              }}
-            >
-              Project #2
-            </CardTitle>
-            <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              sagittis pellentesque lacus eleifend lacinia...
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "white" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "white",
-                height: "176px",
-                background:
-                  "url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center/cover"
-              }}
-            >
-              Project #3
+              Snippet #3
             </CardTitle>
             <CardText>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -259,9 +201,8 @@ class Projects extends Component {
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>Ruby on Rails</Tab>
-          <Tab>React</Tab>
-          <Tab>JavaScript</Tab>
+          <Tab>Projects</Tab>
+          <Tab>Snippets</Tab>
         </Tabs>
 
         <Grid>

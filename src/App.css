@@ -74,6 +74,7 @@
 .projects-grid {
   display: flex;
   padding: 2rem;
+  align-content: center;
 }
 
 /* Resume */
