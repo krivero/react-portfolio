@@ -3,17 +3,24 @@ import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
+import ReactFontFace from "react-font-face";
+
+const styles = {
+  main: {
+    fontFamily: "Comfortaa"
+  }
+};
 
 class App extends Component {
   render() {
     return (
-      <div className="demo-big-content">
+      <div className="demo-big-content" style={styles.main}>
         <Layout>
           <Header
             className="header-color"
             title={
               <Link style={{ textDecoration: "none", color: "white" }} to="/">
-                Kristina Rivero
+                Portfolio
               </Link>
             }
             scroll
