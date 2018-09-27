@@ -9,12 +9,12 @@ class Landing extends Component {
         <Grid className="landing-page">
           <Cell col={12}>
             <img className="logo" src={logo} alt="logo" />
-            <img
-              src="https://www.shareicon.net/download/2016/05/26/771190_people_512x512.png"
-              alt="avatar"
-              className="avatar"
-            />
             <div className="banner">
+              <img
+                src="https://www.shareicon.net/download/2016/05/26/771190_people_512x512.png"
+                alt="avatar"
+                className="avatar"
+              />
               <h1>Full Stack Web Developer</h1>
               <hr />
               <p>

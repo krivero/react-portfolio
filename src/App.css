@@ -1,29 +1,19 @@
-@aqua: #8ce1dc;
-
 h1 {
   font-family: "Comfortaa", cursive;
 }
 
 .header-color {
-  background: #43c6ac; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #191654,
-    #43c6ac
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #191654,
-    #43c6ac
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: black;
 }
 
 .landing-page {
+  background: #fffafa;
   text-align: center;
 }
 
 .logo {
-  height: 200px;
+  height: 250px;
+  margin-bottom: 1rem;
 }
 
 .avatar {
@@ -32,7 +22,7 @@ h1 {
 }
 
 .banner {
-  background-color: black;
+  background-color: #ffe4e1;
   opacity: 0.8;
   width: 65%;
   margin: auto;
@@ -42,18 +32,18 @@ h1 {
 .banner h1 {
   font-size: 2rem;
   font-weight: bold;
-  color: white;
+  color: #808080;
   padding-top: 2rem;
 }
 
 .banner hr {
-  border-top: 0.5rem dotted white;
+  border-top: 0.5rem dotted #808080;
   width: 20%;
   margin: auto;
 }
 
 .banner p {
-  color: white;
+  color: #808080;
   font-size: 1rem;
   padding: 1rem;
 }
@@ -65,7 +55,7 @@ h1 {
 
 .social a {
   padding: 0.25rem;
-  color: white;
+  color: #808080;
 }
 
 /* Projects */
