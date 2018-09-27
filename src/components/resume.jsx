@@ -3,6 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import Experience from "./experience";
 import Education from "./education";
 import Skills from "./skills";
+import pdf from "../resume/KristinaRivero.pdf";
 
 class Resume extends Component {
   render() {
@@ -36,7 +37,11 @@ class Resume extends Component {
             <p>kristinarivero.com</p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           </Cell>
+
           <Cell className="resume-right-col" col={8}>
+            <a href={pdf} target="_blank">
+              Click here for PDF Version
+            </a>
             <h2>Education</h2>
             <Education
               endDate={2018}
