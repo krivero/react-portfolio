@@ -76,10 +76,28 @@ h1 {
 }
 
 /* Resume */
+
 .resume-right-col {
   background: #27221f;
   color: white;
   padding: 2rem;
+}
+
+.pdfButton {
+  background: #8ce1dc;
+  border: none;
+}
+
+.pdfButton a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.pdfButton a:hover {
+  color: black;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
 
 /* Contact */
